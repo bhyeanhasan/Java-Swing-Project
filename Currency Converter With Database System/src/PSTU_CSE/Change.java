@@ -466,7 +466,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET us =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(usf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(usf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -532,7 +532,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET kuet =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(kuetf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(kuetf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -549,7 +549,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET uk =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(ukf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(ukf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -566,7 +566,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET eu =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(euf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(euf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -583,7 +583,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET cad =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(cadf.getText()));
+       preparedStmt.setDouble(1,Double.parseDouble(cadf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -600,7 +600,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET india =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(indiaf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(indiaf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -617,7 +617,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET saudi =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(saudif.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(saudif.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -634,7 +634,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET thai =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(thaif.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(thaif.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -651,7 +651,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET china =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(chinaf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(chinaf.getText()));
         preparedStmt.execute();
         con.close();
 
@@ -668,7 +668,7 @@ public class Change extends javax.swing.JFrame {
         con = conn.connect();
         String query="UPDATE currency SET nepal =?";
         PreparedStatement preparedStmt = con.prepareStatement(query);
-        preparedStmt.setInt(1,Integer.parseInt(nepalf.getText()));
+        preparedStmt.setDouble(1,Double.parseDouble(nepalf.getText()));
         preparedStmt.execute();
         con.close();
 

@@ -566,7 +566,7 @@ public class Admin extends javax.swing.JFrame {
             st = con.createStatement();
             rs = st.executeQuery(valu);
             
-            int bd =Integer.parseInt( bdt.getText());
+            double bd =Double.parseDouble( bdt.getText());
             
             double usv =(double)rs.getDouble(1)*bd*1.00;
             double kuv=(double)rs.getDouble(2)*bd*1.00;
